@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url("../images/back.jpg") fixed no-repeat;
+    background-size: cover;
+
+}
+h1{
+    font-family: 'Langar', cursive;
+    color: #64dfdf;
+}
+h2{
+    margin-top: 5%;
+    text-align: center;
+    color: #a2d2ff;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    border: 10px solid #413e9f;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+#counter{
+    margin: 30;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+#decrment{
+    background-color: mediumpurple;
+    height: 30px;
+    margin-left: 27%;
+    color: darkblue;
+    font-weight: 600;
+    border: none;
+
+}
+#add{
+    background-color: mediumpurple;
+    height: 30px;
+    margin-left: 10%;
+    color: darkblue;
+    font-weight: 600;
+    
+}
+#decrment:hover{
+    background-color: deepskyblue;
+    transition: 0.4s;
+}
+#add:hover{
+    background-color: deepskyblue;
+    transition: 0.4s;
+}
+#reset{
+    background-color: pink;
+    margin-left: 45%;
+    margin-top: 7%;
+    height: 30px;
+    font-weight: 600;
+    width: 70px;
+    color: crimson;
+
+}
+#reset:hover{
+    background-color: hotpink;
+    transition: 0.4s;
+    color: darkmagenta;
+}
+
